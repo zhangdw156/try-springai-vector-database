@@ -1,0 +1,22 @@
+spring:
+  ai:
+    vectorstore:
+      milvus:
+        client:
+          host: 127.0.0.1
+          port: 19530
+          username: "root"
+          password: "Milvus"
+        databaseName: "default"
+        collectionName: "vector_test"
+        embeddingDimension: 4096
+        indexType: IVF_FLAT
+        metricType: COSINE
+        initialize-schema: true
+    ollama:
+      base-url: http://localhost:11434
+      embedding:
+#        model: quentinz/bge-large-zh-v1.5
+        model: dengcao/Qwen3-Embedding-8B:Q8_0
+server:
+  port: 49001

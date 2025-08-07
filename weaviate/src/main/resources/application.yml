@@ -1,0 +1,19 @@
+spring:
+  ai:
+    vectorstore:
+      weaviate:
+        host: localhost:48080
+        scheme: http
+        api-key: user-a-key
+        properties:
+          vectorIndexType: hnsw # 你可以保留或移除，但 dimensions 是关键
+          vectorizer: 'none'    # 因为我们使用 Ollama 作为 embedding model
+          # 这里定义了模型的维度
+          dimensions: 1024 # !!! 添加这一行 !!!
+    ollama:
+      base-url: http://localhost:11434
+      embedding:
+        model: quentinz/bge-large-zh-v1.5
+#        model: dengcao/Qwen3-Embedding-8B:Q8_0
+server:
+  port: 49001

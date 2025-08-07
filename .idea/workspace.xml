@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1481fae9-2ba7-472c-85fa-8ef4daf5be09" name="Changes" comment="弄明白了nacos+feign+dubbo">
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-14.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-15.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-16.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-17.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-14.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-15.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-16.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-17.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-14.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-15.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-16.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-17.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-14.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-15.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-16.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-17.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-12.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/alipay-jraft.log.2025-07-13.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-12.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/config-memory.log.2025-07-13.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-12.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/nacos.log.2025-07-13.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/nacos_gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/logs/nacos_gc.log.0.current" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-12.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/logs/naming-performance.log.2025-07-13.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/src/main/java/com/demo/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/demo/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/src/main/java/com/demo/dto/TemplateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/demo/dto/TemplateDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neo4j/src/main/java/com/demo/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/neo4j/src/main/java/com/demo/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="REBUILD_ON_DEPENDENCY_CHANGE" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/ai/spring-ai-commons/1.0.0/spring-ai-commons-1.0.0.jar!/org/springframework/ai/document/Document.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/ai/spring-ai-vector-store/1.0.0/spring-ai-vector-store-1.0.0.jar!/org/springframework/ai/vectorstore/SearchRequest.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2zGBYTrabH8hIIcFX3MO0XRqp6s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectByDriverTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectByDriverTest.testNeo4jConnection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectBySpringTest.testFormTemplateRepository.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectTest.testConnection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectTest.testNeo4jConnection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormDTOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormDTOTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormServiceTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormServiceTest.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormServiceTest.testQuery.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormTemplateRepositoryTest.testCount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormTemplateRepositoryTest.testDeleteById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormTemplateRepositoryTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormTemplateRepositoryTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormTemplateRepositoryTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.connectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.createCollectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.testConnect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MongoDBTest.testSaveAndFindUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PGVector.pgvectorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PGVectorTest.pgVectorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonRepositoryTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonRepositoryTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonRepositoryTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.testLove.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.testRelationship.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.embeddingDimensionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VectorStoreTest.connectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VectorStoreTest.embeddingDimensionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VectorStoreTest.testConnection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VectorStoreTest.vectorStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeaviateTest.embeddingDimensionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeaviateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeaviateTest.testConnection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeaviateTest.vectorStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.form [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.form [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.form [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mongodb [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mongodb [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mongodb [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.nacos-demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.neo4j [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.neo4j [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.neo4j [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vectorstore [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vectorstore [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.weaviate [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.weaviate [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConsumerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProviderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-full-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/form/work/form/mongodb/src/main/java/com/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Space Code Reviews" show_stripe_button="false" />
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5009225" visible="true" weight="0.28678387" />
+      <window_info id="Commit" order="1" weight="0.22949219" />
+      <window_info id=" Fitten Code Chat" order="2" weight="0.15136719" />
+      <window_info id="Structure" order="3" sideWeight="0.4990775" side_tool="true" weight="0.22949219" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3294956" />
+      <window_info anchor="bottom" id="Debug" weight="0.3294956" />
+      <window_info active="true" anchor="bottom" id="TODO" visible="true" weight="0.37335527" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.3294956" />
+      <window_info anchor="bottom" id="Find" weight="0.32994187" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3294956" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3294956" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3294956" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.3327851" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" weight="0.32975262" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="right" id="Beans" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.33040363" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32975262" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32975262" />
+    </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mongodb/src/main/java/com/demo" />
+      <recent name="$PROJECT_DIR$/docker/nacos" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/pgvector/src/main/resources" />
+      <recent name="$PROJECT_DIR$/weaviate/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.repository" />
+      <recent name="com.demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
+    <configuration name="PGVectorTest.pgVectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgvector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PGVectorTest" />
+      <option name="METHOD_NAME" value="pgVectorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeaviateTest.vectorStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weaviate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.WeaviateTest" />
+      <option name="METHOD_NAME" value="vectorStoreTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.nacos.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.DemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="neo4j" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.DemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.nacos.ProviderServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DemoApplication (1)" />
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Spring Boot.ProviderServiceApplication" />
+        <item itemvalue="JUnit.WeaviateTest.vectorStoreTest" />
+        <item itemvalue="JUnit.PGVectorTest.pgVectorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1481fae9-2ba7-472c-85fa-8ef4daf5be09" name="Changes" comment="" />
+      <created>1751347579572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751347579572</updated>
+      <workItem from="1751347582114" duration="12795000" />
+      <workItem from="1751436512736" duration="297000" />
+      <workItem from="1751436848989" duration="5532000" />
+      <workItem from="1751445368791" duration="2858000" />
+      <workItem from="1751521361748" duration="9499000" />
+      <workItem from="1751852150768" duration="2840000" />
+      <workItem from="1751875233240" duration="132000" />
+      <workItem from="1751875372626" duration="1527000" />
+      <workItem from="1751895147675" duration="1113000" />
+      <workItem from="1751902920308" duration="101000" />
+      <workItem from="1751903039215" duration="552000" />
+      <workItem from="1751936370664" duration="5827000" />
+      <workItem from="1752022392422" duration="1199000" />
+      <workItem from="1752043673164" duration="6137000" />
+      <workItem from="1752195988736" duration="571000" />
+      <workItem from="1752196607198" duration="5514000" />
+      <workItem from="1752456820909" duration="5286000" />
+      <workItem from="1752480508405" duration="5550000" />
+      <workItem from="1752627800666" duration="599000" />
+      <workItem from="1752718316481" duration="2226000" />
+      <workItem from="1752800056064" duration="1537000" />
+      <workItem from="1753060914124" duration="1683000" />
+    </task>
+    <task id="LOCAL-00001" summary="搞明白了neo4j在spring里的应用，开始构造模板图">
+      <option name="closed" value="true" />
+      <created>1751440298205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751440298205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搞明白了neo4j在spring里的应用，开始构造模板图">
+      <option name="closed" value="true" />
+      <created>1751440304664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751440304664</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成了表单图的创建，下一步完成表单图的查询">
+      <option name="closed" value="true" />
+      <created>1751442641395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751442641395</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成了表单的查询和restapi的创建&#10;明天完成testng框架的植入和创建、查询api">
+      <option name="closed" value="true" />
+      <created>1751450064645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751450064645</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成了添加表单模板图的api，但暂时先做到这，下面研究mongodb">
+      <option name="closed" value="true" />
+      <created>1751523136580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751523136580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成了spring集成mongodb，下一步尝试集成weaviate">
+      <option name="closed" value="true" />
+      <created>1751529147293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751529147293</updated>
+    </task>
+    <task id="LOCAL-00007" summary="使用jdk21，springboot.3.4.6，使用spring.ai连接weaviate，刚刚配置好环境 ，明天再说">
+      <option name="closed" value="true" />
+      <created>1751535537487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751535537487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="确定milvus的使用没有问题">
+      <option name="closed" value="true" />
+      <created>1751936852114</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751936852114</updated>
+    </task>
+    <task id="LOCAL-00009" summary="weaviate向量库还是有问题，暂时还是用milvus吧">
+      <option name="closed" value="true" />
+      <created>1751938325666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751938325666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完成pgvector的连接，也就是说，目前可用的有milvus和pgvector">
+      <option name="closed" value="true" />
+      <created>1751944529736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751944529736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="解决了weaviate的问题&#10;原来应该是&quot;host: localhost:48080&quot;!!!">
+      <option name="closed" value="true" />
+      <created>1751945839739</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751945839739</updated>
+    </task>
+    <task id="LOCAL-00012" summary="研究服务注册，方便后续与公司的代码集成">
+      <option name="closed" value="true" />
+      <created>1752053489739</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752053489739</updated>
+    </task>
+    <task id="LOCAL-00013" summary="弄明白了nacos+feign+dubbo">
+      <option name="closed" value="true" />
+      <created>1752213517779</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752213517779</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.dubbo:dubbo" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="搞明白了neo4j在spring里的应用，开始构造模板图" />
+    <MESSAGE value="完成了表单图的创建，下一步完成表单图的查询" />
+    <MESSAGE value="完成了表单的查询和restapi的创建&#10;明天完成testng框架的植入和创建、查询api" />
+    <MESSAGE value="完成了添加表单模板图的api，但暂时先做到这，下面研究mongodb" />
+    <MESSAGE value="完成了spring集成mongodb，下一步尝试集成weaviate" />
+    <MESSAGE value="使用jdk21，springboot.3.4.6，使用spring.ai连接weaviate，刚刚配置好环境 ，明天再说" />
+    <MESSAGE value="确定milvus的使用没有问题" />
+    <MESSAGE value="weaviate向量库还是有问题，暂时还是用milvus吧" />
+    <MESSAGE value="完成pgvector的连接，也就是说，目前可用的有milvus和pgvector" />
+    <MESSAGE value="解决了weaviate的问题&#10;原来应该是&quot;host: localhost:48080&quot;!!!" />
+    <MESSAGE value="研究服务注册，方便后续与公司的代码集成" />
+    <MESSAGE value="弄明白了nacos+feign+dubbo" />
+    <option name="LAST_COMMIT_MESSAGE" value="弄明白了nacos+feign+dubbo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

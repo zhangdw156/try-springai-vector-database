@@ -1,0 +1,15 @@
+services:
+  # Nacos服务端
+  nacos:
+    image: nacos/nacos-server:v2.2.3
+    container_name: nacos
+    environment:
+      - PREFER_HOST_MODE=hostname
+      - MODE=standalone
+    ports:
+      - "38848:8848"
+      - "39848:9848"
+      - "39849:9849"
+    volumes:
+      - ./logs:/home/nacos/logs
+      - ./init.d:/home/nacos/init.d

@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:45432/postgres
+    username: postgres
+    password: postgres
+#    driver-class-name: org.postgresql.Driver
+  ai:
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1024
+        max-document-batch-size: 10000 # Optional: Maximum number of documents per batch
+    ollama:
+      base-url: http://localhost:11434
+      embedding:
+        model: quentinz/bge-large-zh-v1.5
+#        model: dengcao/Qwen3-Embedding-8B:Q8_0
+server:
+  port: 49001

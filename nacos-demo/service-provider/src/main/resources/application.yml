@@ -1,0 +1,21 @@
+server:
+  port: 38081 # 服务提供者端口
+
+spring:
+  application:
+    name: service-provider # 服务名，消费者将通过此名称调用
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:38848 # Nacos 地址（本地启动）
+
+dubbo:
+  scan:
+    base-packages: com.demo.nacos.service.impl # 扫描 Dubbo 服务接口实现类所在的包
+  application:
+    name: service-provider
+  registry:
+    address: nacos://${spring.cloud.nacos.discovery.server-addr}  # Nacos 地址
+  protocol:
+    name: dubbo  # 使用 Dubbo 协议
+    port: 20880  # 服务暴露端口

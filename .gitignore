@@ -1,2 +1,2 @@
 docker/*/[!.*]
-target/
+target/*logs

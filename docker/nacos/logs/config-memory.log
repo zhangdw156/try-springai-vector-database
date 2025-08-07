@@ -33894,3 +33894,35 @@
 
 2025-08-07 11:46:10,441 INFO toClientNotifyTaskSize = 0
 
+2025-08-07 11:46:19,250 INFO [long-pulling] client count 0
+
+2025-08-07 11:46:19,270 INFO groupCount = 3, subscriberClientCount = 0, subscriberCount = 0
+
+2025-08-07 11:46:20,441 INFO toNotifyTaskSize = 0
+
+2025-08-07 11:46:20,441 INFO toClientNotifyTaskSize = 0
+
+2025-08-07 11:46:29,251 INFO [long-pulling] client count 0
+
+2025-08-07 11:46:29,270 INFO groupCount = 3, subscriberClientCount = 0, subscriberCount = 0
+
+2025-08-07 11:46:30,441 INFO toNotifyTaskSize = 0
+
+2025-08-07 11:46:30,441 INFO toClientNotifyTaskSize = 0
+
+2025-08-07 11:46:39,251 INFO [long-pulling] client count 0
+
+2025-08-07 11:46:39,270 INFO groupCount = 3, subscriberClientCount = 0, subscriberCount = 0
+
+2025-08-07 11:46:40,442 INFO toNotifyTaskSize = 0
+
+2025-08-07 11:46:40,442 INFO toClientNotifyTaskSize = 0
+
+2025-08-07 11:46:49,251 INFO [long-pulling] client count 0
+
+2025-08-07 11:46:49,270 INFO groupCount = 3, subscriberClientCount = 0, subscriberCount = 0
+
+2025-08-07 11:46:50,442 INFO toNotifyTaskSize = 0
+
+2025-08-07 11:46:50,442 INFO toClientNotifyTaskSize = 0
+

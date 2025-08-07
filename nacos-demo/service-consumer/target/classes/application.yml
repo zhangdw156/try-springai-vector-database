@@ -1,0 +1,19 @@
+server:
+  port: 38082 # 服务消费者端口
+
+spring:
+  application:
+    name: service-consumer # 消费者服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:38848 # 与服务提供者的Nacos地址一致
+
+dubbo:
+  qos:
+    enable: true        # 是否启用 QoS，默认为 true
+    port: -1         # 修改为其他未被占用的端口
+  application:
+    name: service-consumer # 消费者服务名
+  registry:
+    address: nacos://${spring.cloud.nacos.discovery.server-addr}  # Nacos 地址
